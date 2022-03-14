@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Kalam&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20vh;
+  font-family: "IBM Plex Mono", monospace;
+  font-family: "Kalam", cursive;
+  background-color: #e2e0d9;
+}
+
+.container {
+  border: 5px solid #ff8800;
+  padding: 10px;
+  padding-top: 30px;
+  max-width: 375px;
+  background-color: #e2e0d9;
+  border-radius: 10px;
+}
+
+button {
+  width: 250px;
+  height: 55px;
+  border-color: #ff8800;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: transparent;
+  font-family: "IBM Plex Mono", monospace;
+  font-family: "Kalam", cursive;
+}
