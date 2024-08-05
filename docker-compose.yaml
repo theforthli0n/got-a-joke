@@ -1,0 +1,12 @@
+services:
+  got-a-joke-client:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: got-a-joke-client
+    ports:
+      - "4012:4012"
+    environment:
+      - PORT=4012
+    volumes:
+      - ./:/got-a-joke-client
